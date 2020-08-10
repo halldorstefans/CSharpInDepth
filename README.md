@@ -8,9 +8,9 @@
     C# in Depth
     <br />
     <br />
-    <a href="https://github.com/halldorstefans/McLarenAPI/issues">Report Bug</a>
+    <a href="https://github.com/halldorstefans/CSharpInDepth/issues">Report Bug</a>
     ·
-    <a href="https://github.com/halldorstefans/McLarenAPI/issues">Request Feature</a>
+    <a href="https://github.com/halldorstefans/CSharpInDepth/issues">Request Feature</a>
   </p>
 </p>
 
@@ -42,7 +42,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Halldór Stefánsson - [@halldorstefans](https://twitter.com/halldorstefans)
 
-Project Link: [https://github.com/halldorstefans/McLarenAPI](https://github.com/halldorstefans/McLarenAPI)
+Project Link: [https://github.com/halldorstefans/CSharpInDepth](https://github.com/halldorstefans/CSharpInDepth)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
