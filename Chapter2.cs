@@ -5,14 +5,14 @@ namespace CSharpInDepth
 {
     class Chapter2
     {
-        static void Main(string[] args)
+        static void Murf(string[] args)
         {
-            Chapter2 p2 = new Chapter2();
+            Chapter2 chapter2 = new Chapter2();
             
-            p2.Generics();
-            p2.Nullables();
-            p2.Delegates();
-            p2.Yields();
+            chapter2.Generics();
+            chapter2.Nullables();
+            chapter2.Delegates();
+            chapter2.Yields();
         }
 
         /// <summary>
