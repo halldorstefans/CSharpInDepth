@@ -6,20 +6,10 @@ namespace CSharpInDepth
 {
     class Chapter3
     {
-        static void Murf2(string[] args)
-        {
-            var chapter3 = new Chapter3();
-            chapter3.ObjectInitializer();
-            chapter3.AnonymousType();
-            chapter3.LambdaExpression();
-            chapter3.ExtensionMethod();
-            chapter3.QueryExpression();
-        }
-
         /// <summary>
         /// Test object initializer
         /// </summary>
-        private void ObjectInitializer()
+        public void ObjectInitializer()
         {
             Console.WriteLine("***OBJECT INITIALIZER***");
             var myOrder = getOrder();
@@ -46,7 +36,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test anonymous types
         /// </summary>
-        private void AnonymousType()
+        public void AnonymousType()
         {
             Console.WriteLine("\n***ANONYMOUS TYPE***");
 
@@ -64,7 +54,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test lambda expressions
         /// </summary>
-        private void LambdaExpression()
+        public void LambdaExpression()
         {
             Console.WriteLine("\n***LAMBDA***");
 
@@ -76,7 +66,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test extensions
         /// </summary>
-        private void ExtensionMethod()
+        public void ExtensionMethod()
         {
             Console.WriteLine("\n***EXTENSIONS***");
 
@@ -90,7 +80,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test query expressions
         /// </summary>
-        private void QueryExpression()
+        public void QueryExpression()
         {
             Console.WriteLine("\n***QUERY***");
             var myOrder = getOrder();

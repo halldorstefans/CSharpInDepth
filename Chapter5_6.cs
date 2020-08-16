@@ -8,17 +8,13 @@ namespace CSharpInDepth
 {
     class Chapter5_6
     {
-        static void Main(string[] args)
-        {
-            var chapter5_6 = new Chapter5_6();
-            chapter5_6.AsyncAwait();
-        }
-
         /// <summary>
         /// Test aync await
         /// </summary>
-        private async void AsyncAwait()
+        public async void AsyncAwait()
         {
+            Console.WriteLine("***ASYNC AWAIT***");
+
             var todo = GetToDoList();
 
             var task = OrderPizzaAsync();   

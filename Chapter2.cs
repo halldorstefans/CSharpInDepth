@@ -5,20 +5,10 @@ namespace CSharpInDepth
 {
     class Chapter2
     {
-        static void Murf(string[] args)
-        {
-            Chapter2 chapter2 = new Chapter2();
-            
-            chapter2.Generics();
-            chapter2.Nullables();
-            chapter2.Delegates();
-            chapter2.Yields();
-        }
-
         /// <summary>
         /// Test generics
         /// </summary>
-        private void Generics()
+        public void Generics()
         {
             Console.WriteLine("***GENERICS***");
 
@@ -59,7 +49,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test nullables
         /// </summary>
-        private void Nullables()
+        public void Nullables()
         {
             Console.WriteLine("\n***NULLABLES***");
 
@@ -85,7 +75,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test delegates
         /// </summary>
-        private void Delegates()
+        public void Delegates()
         {
             Console.WriteLine("\n***DELEGATES***");
 
@@ -95,13 +85,16 @@ namespace CSharpInDepth
             stringPrinter(printDelegate);
         }
 
-        public delegate void StringPrinter(string message);
-        public void PrintAnything(Object obj)
+        private delegate void StringPrinter(string message);
+        private void PrintAnything(Object obj)
         {
             Console.WriteLine(obj);
         }
 
-        private void Yields()
+        /// <summary>
+        /// Test yields
+        /// </summary>
+        public void Yields()
         {            
             Console.WriteLine("\n***YIELDS***");            
 

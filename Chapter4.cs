@@ -6,17 +6,10 @@ namespace CSharpInDepth
 {
     class Chapter4
     {
-        static void Murf4(string[] args)
-        {
-            var chapter4 = new Chapter4();
-            chapter4.DynamicTyping();
-            chapter4.OptionalParametersNamedArguments();
-        }
-
         /// <summary>
         /// Test dynamic typung
         /// </summary>
-        private void DynamicTyping()
+        public void DynamicTyping()
         {
             Console.WriteLine("***DYNAMIC TYPING***");
 
@@ -33,7 +26,7 @@ namespace CSharpInDepth
         /// <summary>
         /// Test optional parameters and named arguments
         /// </summary>
-        private void OptionalParametersNamedArguments()
+        public void OptionalParametersNamedArguments()
         {
             Console.WriteLine("\n***OPTIONAL PARAMETERS***");
 

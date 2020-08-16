@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## CSharp In Depth
 
-Exploring C# features from 'C# in Depth' by Jon Skeet.
+Exploring C# features from ['C# in Depth'](https://csharpindepth.com/) by Jon Skeet.
 
 ### Built With
 
