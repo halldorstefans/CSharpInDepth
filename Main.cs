@@ -16,6 +16,7 @@ namespace CSharpInDepth
             mainClass.CallChapter3();
             mainClass.CallChapter4();
             mainClass.CallChapter5_6();
+            mainClass.CallChapter8();
         }
 
         private void CallChapter2()
@@ -60,6 +61,16 @@ namespace CSharpInDepth
             var chapter5_6 = new Chapter5_6();
 
             chapter5_6.AsyncAwait();
+        }
+
+        private void CallChapter8()
+        {
+            Console.WriteLine("\n----------CHAPTER 8----------");
+
+            var chapter8 = new Chapter8();
+
+            chapter8.AutomaticProps();
+            chapter8.ExpressionMembers();
         }
     }
 }
