@@ -17,6 +17,7 @@ namespace CSharpInDepth
             mainClass.CallChapter4();
             mainClass.CallChapter5_6();
             mainClass.CallChapter8();
+            mainClass.CallChapter9();
         }
 
         private void CallChapter2()
@@ -71,6 +72,17 @@ namespace CSharpInDepth
 
             chapter8.AutomaticProps();
             chapter8.ExpressionMembers();
+        }
+
+        private void CallChapter9()
+        {
+            Console.WriteLine("\n----------CHAPTER 9----------");
+
+            var chapter9 = new Chapter9();
+
+            chapter9.InterpolatedStringLiterals();
+            chapter9.FormattableString();
+            chapter9.NameOfMethod();
         }
     }
 }
